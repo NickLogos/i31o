@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello git <3")
+        view.backgroundColor = .blue
     }
 
 
