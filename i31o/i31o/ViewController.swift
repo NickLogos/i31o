@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Hello git <3")
         view.backgroundColor = .blue
-        label.text = "Hello"
+        label.text = "Hey"
         
     }
 }
