@@ -22,19 +22,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agd-zg-liw">
-                                <rect key="frame" x="16" y="180" width="361" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="agd-zg-liw" secondAttribute="trailing" constant="16" id="1na-lq-Xmj"/>
-                            <constraint firstItem="agd-zg-liw" firstAttribute="top" secondItem="oD6-rA-Bxc" secondAttribute="bottom" constant="50" id="5BJ-Dz-huA"/>
-                            <constraint firstItem="agd-zg-liw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JRQ-F6-k93"/>
                             <constraint firstItem="oD6-rA-Bxc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="TP1-po-LVe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oD6-rA-Bxc" secondAttribute="trailing" constant="16" id="pQA-fC-OSL"/>
                             <constraint firstItem="oD6-rA-Bxc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="pzz-TH-tUe"/>
@@ -42,7 +33,6 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="oD6-rA-Bxc" id="xh2-GB-oBK"/>
-                        <outlet property="label2" destination="agd-zg-liw" id="SEI-xe-BWc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
